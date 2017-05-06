@@ -8,7 +8,7 @@ public class AccountHandler {
         try
         {
             insert newAccount;
-        }catch(DmlException e)
+        }catch(DmlException e) 
         {
             return null;
         }
