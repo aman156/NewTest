@@ -5,6 +5,7 @@ public class AccountHandler {
         
         Account newAccount = new Account(name=accName);
     
+    	System.debug('new debugger');
         try
         {
             insert newAccount;
